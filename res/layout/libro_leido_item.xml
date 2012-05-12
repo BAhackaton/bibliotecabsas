@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal" >
+
+ 
+    <ImageView android:id="@+id/fotoTapaLibroLeido" 
+	                   style="@style/fotoTapaLibroLeido" 
+	                   android:layout_height="wrap_content" 
+	                   android:layout_width="@dimen/anchoFotoTapaLibroLeido" 
+	                   android:layout_alignParentLeft="true" 
+	                   android:layout_alignParentTop="true"
+	                   android:src="@drawable/tapa_libro_default" />
+
+    <TextView android:id="@+id/valorTitulo"
+              style="@style/titulo_seccion"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:visibility="visible"
+              android:layout_toRightOf="@+id/fotoTapaLibroLeido"
+              android:text="Titulo del libro"
+     />
+             
+     <TextView android:id="@+id/valorResponsables"
+              style="@style/valorDeCampoLibroLeido"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:visibility="visible"
+              android:layout_below="@+id/valorTitulo"
+              android:text="José Hernández"
+              android:layout_alignLeft="@+id/valorTitulo"
+              />
+         
+</RelativeLayout>

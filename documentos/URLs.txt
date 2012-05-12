@@ -1,0 +1,15 @@
+Busqueda simple
+curl -d "cArea1=BIBLIOTECA&cTermino1=&cTodas1=N&cOperacion1=AND&cArea2=En+todas&cTodas2=S&cOperacion2=AND&cTermino2=marechal&bBuscar=Buscar" http://catalogo.bibliotecas.gov.ar/pergamo/opac/cgi-bin/pgopac.cgi?ISRCH
+
+Busqueda por ISBN
+curl -d "cISBN=950-07-2411-1&bBuscar=Buscar" http://catalogo.bibliotecas.gov.ar/pergamo/opac/cgi-bin/pgopac.cgi?ISBN
+
+Pagina siguiente
+curl -d "cPagina=2&search=0%5EEn+todas%5E%3D%5Eadan%5ES%5E0%5E%5E" http://catalogo.bibliotecas.gov.ar/pergamo/opac/cgi-bin/pgopac.cgi?ISRCH
+
+Ver informacion del libro (VDOC se obtiene de la lista de resultados que devuelven las busquedas)
+curl http://catalogo.bibliotecas.gov.ar/pergamo/opac/cgi-bin/pgopac.cgi?VDOC=1.120471
+
+
+
+

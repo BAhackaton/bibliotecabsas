@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/header"/>
+    
+    <ProgressBar 
+        android:id="@+id/recuperando"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    	/>
+    
+    <TextView android:id="@+id/valorTitulo"
+              style="@style/titulo_seccion"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:visibility="visible"
+              android:text=""
+     />
+    
+    <include layout="@layout/libro"/>
+    
+    <include layout="@layout/libros_leidos_y_comentarios"/>
+    
+    
+    
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/header_layout"
+    android:background="@color/header_fondo_bibliotecas_negro">
+
+
+    
+    <ImageView 
+        android:id="@+id/header_fondo_bibliotecas"
+        android:src="@drawable/header_bibliotecas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/bibliotecas"
+        android:layout_alignParentRight="true"
+    />
+    
+    <ImageView 
+        android:src="@drawable/header_bibliotecas_texto"
+    	android:contentDescription="@string/bibliotecas"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignBottom="@id/header_fondo_bibliotecas"
+    	android:layout_above="@id/header_fondo_bibliotecas"
+    />
+
+</RelativeLayout>

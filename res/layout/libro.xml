@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detalles"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/fotoTapaLibro"
+        style="@style/fotoTapaLibro"
+        android:layout_width="@dimen/anchoFotoTapaLibro"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/tapa_libro_default" />
+    
+    <ImageView
+        android:id="@+id/linea_uno"
+        android:layout_width="@dimen/anchoFotoTapaLibro"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fotoTapaLibro"
+        android:layout_alignLeft="@+id/fotoTapaLibro"
+        android:src="@drawable/linea"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"/>
+
+    <TextView
+        android:id="@+id/me_gusta_label"
+        style="@style/campoLibro"
+        android:layout_width="@dimen/anchoFotoTapaLibro"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linea_uno"
+        android:layout_below="@+id/linea_uno"
+        android:text="Me gusta"
+        android:paddingLeft="30dp" />
+
+    <RatingBar
+        android:id="@+id/ranking"
+        style="@style/foodRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/altoRanking"
+        android:layout_alignLeft="@+id/me_gusta_label"
+        android:layout_below="@+id/me_gusta_label"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:rating="0" 
+        android:layout_marginLeft="30dp" />
+    
+    
+    
+    
+    
+
+    <TextView
+        android:id="@+id/responsables"
+        style="@style/campoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/fotoTapaLibro"
+        android:text="autor/es"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/valorResponsables"
+        style="@style/valorDeCampoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/responsables"
+        android:layout_below="@+id/responsables"
+        android:text="valor BORRAR"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/editorial"
+        style="@style/campoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/valorResponsables"
+        android:layout_below="@+id/valorResponsables"
+        android:text="editorial"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/valorEditorial"
+        style="@style/valorDeCampoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editorial"
+        android:layout_below="@+id/editorial"
+        android:text="valor BORRAR"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/edicion"
+        style="@style/campoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/valorEditorial"
+        android:layout_below="@+id/valorEditorial"
+        android:text="edición"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/valorEdicion"
+        style="@style/valorDeCampoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edicion"
+        android:layout_below="@+id/edicion"
+        android:text="edicion BORRAR"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/descripcionFisica"
+        style="@style/campoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/valorEdicion"
+        android:layout_below="@+id/valorEdicion"
+        android:text="características"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/valorDescripcionFisica"
+        style="@style/valorDeCampoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/descripcionFisica"
+        android:layout_below="@+id/descripcionFisica"
+        android:text="valor BORRAR"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/isbn"
+        style="@style/campoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/valorDescripcionFisica"
+        android:layout_below="@+id/valorDescripcionFisica"
+        android:text="ISBN"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/valorIsbn"
+        style="@style/valorDeCampoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/isbn"
+        android:layout_below="@+id/isbn"
+        android:text="isbn BORRAR"
+        android:visibility="visible" />
+
+    
+
+    <Button
+        android:id="@+id/botonDondeLoEncuentro"
+        style="@style/botonPrincipalSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valorIsbn"
+        android:layout_alignLeft="@+id/valorIsbn"
+        android:text="@string/donde_lo_encuentro"
+        android:layout_marginTop="10dp" />
+    
+    <Button
+        android:id="@+id/botonMapa"
+        style="@style/botonPrincipalSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/valorIsbn"
+        android:layout_toRightOf="@+id/botonDondeLoEncuentro"
+        android:text="@string/ver_mapa"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+</RelativeLayout>

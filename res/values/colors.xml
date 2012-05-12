@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="rojo">#ffff0000</color>
+    <color name="amarillo_buenos_aires">#ffFFD200</color>
+    <color name="amarillo_buenos_aires_gradient">#ffff9600</color>
+    <color name="header_fondo_bibliotecas_negro">#ff0a0401</color>
+    <color name="boton_focused">#ffff6c00</color>
+    <color name="boton_focused_gradient">#ffff4200</color>
+    <color name="gris_claro">#ffb9b485</color>
+    <color name="verde">#ff72bf44</color>
+    <color name="gris_oscuro">#ff5b5c43</color>
+    <color name="gris_muy_oscuro">#ff1c1a06</color>
+    
+</resources>

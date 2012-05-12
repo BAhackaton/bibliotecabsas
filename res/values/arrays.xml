@@ -1,0 +1,45 @@
+<resources>
+
+    <string-array name="bibliotecas">
+        <item>Todas las bibliotecas</item>
+        <item>GÜIRALDES, Ricardo</item>
+        <item>GUIDO Y SPANO, Carlos</item>
+        <item>GÁLVEZ, Manuel</item>
+        <item>CANÉ, Miguel</item>
+        <item>LUGONES, Leopoldo</item>
+        <item>LYNCH, Benito</item>
+        <item>CORTÁZAR</item>
+        <item>FERNÁNDEZ MORENO, Baldomero</item>
+        <item>ASCASUBI, Hilario</item>
+        <item>MÁRMOL, José</item>
+        <item>CHORROARÍN, Canónigo Luis José de</item>
+        <item>SAAVEDRA, Brig. Gral. Cornelio</item>
+        <item>GONZÁLEZ, Joaquín V.</item>
+        <item>CARRIEGO, Evaristo</item>
+        <item>CENTENERA, Martín del Barco</item>
+        <item>PELLIZA, Mariano</item>
+        <item>LA PRENSA</item>
+        <item>SAGUIER, Julio César</item>
+        <item>HERNANDEZ, José</item>
+        <item>DEVOTO, Antonio</item>
+        <item>OBLIGADO, Rafael</item>
+        <item>DEL CAMPO, Estanislao</item>
+        <item>VILLAFAÑE, Javier</item>
+        <item>STORNI, Alfonsina (Biblioteca de la Mujer)</item>
+        <item>BANCHS, Enrique (Biblioteca Infantil)</item>
+        <item>TESORO LUGONES, Leopoldo (Con cita telefónica)</item>
+        <item>Infantil CANÉ, Miguel</item>
+        <item>YUNQUE, Alvaro (Biblioteca Infantil)</item>
+        <item>TESORO CANÉ, Migue</item>
+        <item>Infantil SAGUIER, Julio César</item>
+        <item>Infantil LUGONES, Leopoldo</item>
+        <item>Infantil CENTENERA, Martín del Barco</item>
+        <item>Infantil DEVOTO, Antonio</item>
+        <item>Infantil GONZÁLEZ, Joaquín V.</item>
+        <item>Infantil LYNCH, Benito</item>
+        <item>Infantil VILLAFAÑE, Javier</item>
+        <item>CIRCE (Biblioteca TESORO - Con cita telefónica)</item>
+        <item>PATRIMONIAL</item>
+    </string-array>
+
+</resources>

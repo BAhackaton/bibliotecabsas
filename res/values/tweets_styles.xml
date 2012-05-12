@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TweetsText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">10dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    
+        <style name="TweetsList" parent="@android:style/Widget.ListView">
+        <item name="android:groupIndicator">@null</item>
+        <item name="android:headerDividersEnabled">true</item>
+        <item name="android:footerDividersEnabled">true</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0px</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:padding">2dip</item>
+    </style>
+        
+        
+    <style name="TweetsView">
+       
+    </style>
+    
+    <style name="TweetAuthorText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    
+    <style name="TweetText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">#FF9D0140</item>
+    </style>
+    
+    
+    <style name="TweetDateText" parent="@style/TweetsText">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    
+</resources>

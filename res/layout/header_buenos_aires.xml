@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/header_layout"
+    android:background="@color/amarillo_buenos_aires" >
+
+    <ImageView
+        android:id="@+id/header_logo_buenos_aires"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_buenos_aires" 
+        android:contentDescription="@string/buenos_aires"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="3dp"
+    />
+
+    <ImageView
+        android:id="@+id/header_haciendo_bs_as"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/haciendo_buenos_aires" 
+        android:contentDescription="@string/haciendo_buenos_aires"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="3dp"
+    />
+
+</RelativeLayout>

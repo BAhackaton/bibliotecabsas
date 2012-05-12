@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/responsables"
+        style="@style/campoLibro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="autor/es" />
+
+    <TextView
+        android:id="@+id/valorResponsables"
+        style="@style/valorDeCampoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/responsables"
+        android:text="BORRAR" />
+
+    <TextView
+        android:id="@+id/editorial"
+        style="@style/campoLibro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/valorResponsables"
+        android:text="editorial" />
+
+    <TextView
+        android:id="@+id/valorEditorial"
+        style="@style/valorDeCampoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editorial"
+        android:text="BORRAR" />
+
+    <TextView
+        android:id="@+id/edicion"
+        style="@style/campoLibro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/valorEditorial"
+        android:text="edición" />
+
+    <TextView
+        android:id="@+id/valorEdicion"
+        style="@style/valorDeCampoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edicion"
+        android:text="BORRAR" />
+
+    <TextView
+        android:id="@+id/descripcionFisica"
+        style="@style/campoLibro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/valorEdicion"
+        android:text="características" />
+
+    <TextView
+        android:id="@+id/valorDescripcionFisica"
+        style="@style/valorDeCampoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descripcionFisica"
+        android:text="BORRAR" />
+
+    <TextView
+        android:id="@+id/isbn"
+        style="@style/campoLibro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/valorDescripcionFisica"
+        android:text="ISBN" />
+
+    <TextView
+        android:id="@+id/valorIsbn"
+        style="@style/valorDeCampoLibro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/isbn"
+        android:text="isbn BORRAR" />
+
+    <TextView
+        android:id="@+id/me_gusta_label"
+        style="@style/campoLibro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/valorIsbn"
+        android:text="Me gusta" />
+
+    <RatingBar
+        android:id="@+id/ranking"
+        style="@style/foodRatingBar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/altoRanking"
+        android:layout_below="@+id/me_gusta_label"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:rating="0" />
+
+    <Button
+        android:id="@+id/botonDondeLoEncuentro"
+        style="@style/botonPrincipalSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ranking"
+        android:text="@string/donde_lo_encuentro" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    
+    <TextView style="@style/nombre_biblioteca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre_biblioteca"
+    />
+    
+	<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    style="@style/direccion_biblioteca" 
+	    android:id="@+id/direccion_biblioteca"
+	    android:layout_below="@id/nombre_biblioteca"
+	 />
+	    
+	 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    style="@style/disponible" 
+	    android:id="@+id/libro_disponible"
+	    android:layout_alignParentRight="true"
+	 />
+	    
+	
+</RelativeLayout>

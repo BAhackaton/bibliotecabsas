@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="titulo_seccion">
+        <item name="android:textColor">@color/amarillo_buenos_aires</item>
+        <item name="android:textSize">16dip</item>
+        <item name="android:padding">2dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="fondo_item_listado"></style>
+
+    <style name="disponible">
+        <item name="android:textColor">@color/verde</item>
+        <item name="android:textSize">9dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">20dp</item>
+    </style>
+
+    <style name="foodRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingstars</item>
+        <item name="android:minHeight">22dip</item>
+        <item name="android:maxHeight">22dip</item>
+    </style>
+
+    <style name="nombre_biblioteca">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+
+    <style name="direccion_biblioteca">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textSize">8dp</item>
+        <item name="android:textColor">@color/gris_claro</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="campoLibroLeido">
+        <item name="android:textSize">8dip</item>
+        <item name="android:padding">2dip</item>
+    </style>
+
+    <style name="valorDeCampoLibroLeido">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12dip</item>
+        <item name="android:padding">2dip</item>
+    </style>
+
+    <style name="fotoTapaLibroLeido">
+        <item name="android:padding">2dip</item>
+    </style>
+
+    <style name="librosLeidosList">
+        
+    </style>
+
+    <dimen name="anchoFotoTapaLibroLeido">40dip</dimen>
+
+	<style name="twitterTitulo">
+        <item name="android:textColor">@color/gris_claro</item>
+        <item name="android:textSize">14dip</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+</resources>

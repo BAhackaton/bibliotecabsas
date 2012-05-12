@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BibliotecasMainActivity!</string>
+    <string name="app_name">Bibliotecas Buenos Aires</string>
+    
+    <string name="busqueda_simple">Búsqueda simple</string>
+    <string name="ingrese_autor_titulo_materias_etc">Ingrese títulos, autores, materias, etc</string>
+    <string name="buscar_en">Buscar en</string>
+    <string name="todas_las_bibliotecas">Todas las bibliotecas</string>
+    <string name="buscar">Buscar</string>
+    <string name="buenos_aires">Buenos Aires</string>
+    <string name="haciendo_buenos_aires">Haciendo Buenos Aires</string>
+    <string name="bibliotecas">Bibliotecas</string>
+    <string name="vacio"></string>
+    <string name="resultado_de_busqueda">Resultados de búsqueda</string>
+    <string name="donde_lo_encuentro">Donde lo encuentro</string>
+    <string name="disponible">Disponible</string>
+    <string name="ver_mapa">Ver mapa</string>
+
+</resources>
